@@ -15,7 +15,7 @@ inbounds:
     wsSettings:
       path: /ray
   sniffing:
-    enabled: true
+    enabled: false
     destOverride:
     - http
     - tls
