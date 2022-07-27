@@ -2,7 +2,7 @@
 @websockets-vl {
         header Connection *Upgrade*
         header Upgrade websocket
-        path /ray
+        path /ray*
 }
 handle @websockets-vl {
         reverse_proxy * localhost:61079
